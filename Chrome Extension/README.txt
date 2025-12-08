@@ -1,15 +1,33 @@
+YouTube Timestamp Bookmark Extension
 
-YouTube Timestamp Bookmarker - Chrome Extension
----------------------------------------------
+A Chrome extension that allows users to bookmark timestamps while watching YouTube videos. This helps viewers easily save, revisit, and organize key moments without manually noting time codes.
 
-How it works:
-- Open a YouTube watch page (a video playing).
-- Click the extension icon to open the popup and press "Save current timestamp".
-- Bookmarks are stored locally in Chrome storage.
-- Click a saved bookmark to open the video at that timestamp (with autoplay).
-- You can delete individual bookmarks or clear all.
+Features
+• Save any timestamp with one click
+• Automatically stores the title and video URL
+• View all saved timestamps in a clean popup UI
+• Delete timestamps easily
+• Works on any YouTube video page
 
-Installation (developer mode):
-1. Download and unzip the extension folder.
-2. Open Chrome -> Extensions -> Toggle "Developer mode".
-3. Click "Load unpacked" and select the unzipped "Chrome Extension" folder.
+How It Works
+Open a YouTube video.
+Click the extension icon.
+Press the Save Timestamp button.
+View your saved list below.
+
+Installation (Developer Mode)
+Download this repository’s ZIP file or clone it.
+Open Chrome → Extensions → Enable Developer Mode.
+Click Load Unpacked.
+Select the project folder.
+
+Tech Stack
+• HTML
+• CSS
+• JavaScript
+• Chrome Extension APIs (Manifest V3)
+
+Future Improvements
+• Sync with Google account
+• Add search and categorization
+• Export timestamps
