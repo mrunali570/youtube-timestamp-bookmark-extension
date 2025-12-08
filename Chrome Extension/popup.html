@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>YouTube Timestamp Bookmarker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>YT Bookmarks</h1>
+      <div id="status"></div>
+      <div class="controls">
+        <button id="saveBtn">⭐ Save current timestamp</button>
+        <button id="clearBtn" class="danger">Clear All</button>
+      </div>
+      <ul id="list"></ul>
+      <div id="notes">Notes: Click a bookmark to open the YouTube tab and play from that timestamp. Delete icons remove individual bookmarks.</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

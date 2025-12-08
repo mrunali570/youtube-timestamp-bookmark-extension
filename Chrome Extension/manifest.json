@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Timestamp Bookmarker",
+  "version": "1.0",
+  "description": "Bookmark specific timestamps in YouTube videos and jump to them later.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Timestamp Bookmarker"
+  }
+}
